@@ -1,0 +1,108 @@
+body {
+    overflow-x: hidden;
+}
+
+.mt-75 {
+    margin-top: 73px;
+}
+
+.carousel-caption {
+    background: #00000073;
+    color: #fff;
+}
+
+ul.navbar-nav li.nav-item {
+    padding: 0 10px;
+}
+
+ul.navbar-nav li.nav-item a.nav-link {
+    color: #fff;
+}
+
+.navbar-nav {
+    margin-left: 188px;
+}
+
+.seprate {
+    color: #00a1aa;
+    border-bottom: 4px solid;
+}
+
+.approach {
+    list-style: square;
+}
+
+ul.service {
+    list-style: circle;
+    padding: 0 0 0 18px;
+}
+
+ul.service li {
+    padding: 0 0 10px 0;
+}
+
+ul.innerservice {
+    list-style-type: disc;
+}
+
+.card-body {
+    height: 537px;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('../../businessservices/images/pexels-photo-900106.jpg');
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+
+.black-overlay {
+    background: rgba(0, 0, 0, 0.644);
+    padding: 0;
+}
+
+.icon {
+    background-color: #fff;
+    border-radius: 50%;
+    color: #00a1aa;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.icon-mobiles {
+    font-size: 23px!important;
+    width: 44px;
+    padding: 17px;
+    height: 51px;
+}
+
+.form-group label {
+    color: #fff;
+}
+
+
+/* own responsive */
+
+@media (min-width:308px) and (max-width:750px) {
+    .navbar-nav {
+        margin-left: 0;
+    }
+    .card-body {
+        height: auto;
+    }
+}
+
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
