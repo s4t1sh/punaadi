@@ -149,17 +149,13 @@ mysqli_close($con);
 		  <a class="carousel-control-next transition-5 radius-50 background-l-blue mr-10px" href="#carouselExampleFade" role="button" data-slide="next">
 			  <i class="fa fa-angle-right fs-30"></i>
 		  </a>
-
-		  <div class="updates">
-			<?php
-				echo "
-					<p class='text-center' style='color: white;'>UPDATE - WEEK ".$get_details['week']."</p>
-					<p style='color: white;' class='mt-3'>NW UP BY ".$get_details['nwup']."</p>
-					<p style='color: white;'>PULLS :- ".$get_details['pulls']."</p>
-					<p style='color: white;'>DRAGS :- ".$get_details['drags']."</p>
-				"
-			?>
-		  </div>
+		<?php
+		if($get_details['details'] != ''){
+			echo "<div class='updates' style='color: white;'>
+			  ".$get_details['details']."
+			</div>";
+		}
+		  ?>
 	  </div>
 	  <!-- ==================================================
 							End Carousel

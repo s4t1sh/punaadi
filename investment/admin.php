@@ -58,7 +58,7 @@
               <div class="card mb-3">
 
                 <div class="card-body">
-                  <form class="row g-3 needs-validation" action="update-form.php" method="POST" novalidate>
+                  <form class="row g-3 needs-validation" action="form.php" method="POST" novalidate>
 
                     <div class="col-12 pt-3">
                       <label for="yourUsername" class="form-label">Admin Username</label>
@@ -98,10 +98,6 @@
 
               <div class="credits text-center">
                 <p>© Copyright 2023 - 2024 <strong><a href="https://www.punaadi.com/">Punaadi</a> </strong>All Rights Reserved</p>
-                <!-- All the links in the footer should remain intact. -->
-                <!-- You can delete the links only if you purchased the pro version. -->
-                <!-- Licensing information: https://bootstrapmade.com/license/ -->
-                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/ -->
                 Designed by <a href="https://beamingindia.com/">Beaming India Pvt. Ltd</a>
               </div>
 
